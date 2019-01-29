@@ -5,6 +5,7 @@ export const loadUsers = () => ({
   type: LOAD_USERS
 })
 
+// redux-thunk example
 // export const loadUsers = () => dispatch => {
 //   dispatch(loadingUsers())
 //   loadUsersApi().then(response => {

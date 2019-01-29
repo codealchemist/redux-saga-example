@@ -1,4 +1,5 @@
 import { LOAD_USERS, LOAD_USERS_SUCCESS, LOAD_USERS_FAIL } from './actionTypes'
+
 const defaultState = {
   list: [],
   loading: false
