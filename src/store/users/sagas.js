@@ -16,5 +16,5 @@ export function * loadUsers () {
 
 export default function * usersSaga () {
   console.log('fetchUsers saga')
-  yield takeEvery('app/load-users', loadUsers)
+  yield takeEvery(LOAD_USERS, loadUsers)
 }
